@@ -1,0 +1,16 @@
+{
+    "new-api": {
+      "title": "Copilot Skill",
+      "description": "Create a new Copilot Skill - API plugin",
+      "libraries": ["@microsoft/typespec-copilot-skills"],
+      "skipCompilerPackage": true,
+      "compilerVersion": "0.60.0",
+      "files": [
+        {"path": "./tspconfig.yaml", "destination": "tspconfig.yaml"},
+        {"path": "./package.json", "destination": "package.json"},
+        {"path": ".vscode/tasks.json", "destination": ".vscode/tasks.json"},
+        {"path": "./main.tsp", "destination": "main.tsp"},
+        {"path": "./generateApiPlugin.ps1", "destination": "generateApiPlugin.ps1"}
+      ]
+    }
+  }
