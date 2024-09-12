@@ -1,0 +1,5 @@
+node_modules
+@typespec
+output
+.kiota
+package-lock.json

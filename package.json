@@ -1,0 +1,17 @@
+{
+  "name": "experimental",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@typespec/compiler": "^0.60.0",
+    "@typespec/http": "^0.60.0",
+    "@typespec/rest": "^0.60.0",
+    "@typespec/openapi3": "^0.60.0",
+    "@microsoft/typespec-copilot-skills": "latest"
+  },
+  "scripts": {
+    "build": "tsp compile .",
+    "watch": "tsp compile . --watch"
+  },
+  "private": true
+}
