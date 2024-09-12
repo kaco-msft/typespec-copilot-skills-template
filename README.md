@@ -1,7 +1,7 @@
-# How to run your TypeSpec project
+# How to generate your Copilot skill
 
 1. Run `tsp install` to install project dependencies.
-2. Make your changes to `main.tsp`
-3. Run `tsp compile .` to compile the main.tsp
-4. View your output in `@typespec/openapi3/openapi.yaml`
-5. Run `./generateApiPlugin.ps1` to generate your API plugin, viewable in `output/suno-openapi.yaml`
+3. Run `tsp compile .` to compile the TypeSpec (main.tsp)
+4. View your OAS output in `@typespec/openapi3/openapi.yaml`.
+5. Run `./generateApiPlugin.ps1` to generate your API plugin.
+6. Open `output/suno-openapi.yaml` to view your API plugin manifest.
