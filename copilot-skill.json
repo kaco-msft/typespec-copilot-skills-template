@@ -10,7 +10,8 @@
         {"path": "./package.json", "destination": "package.json"},
         {"path": ".vscode/tasks.json", "destination": ".vscode/tasks.json"},
         {"path": "./main.tsp", "destination": "main.tsp"},
-        {"path": "./generateApiPlugin.ps1", "destination": "generateApiPlugin.ps1"}
+        {"path": "./generateApiPlugin.ps1", "destination": "generateApiPlugin.ps1"},
+        {"path": "./README.md", "destination": "README.md"}
       ]
     }
   }
